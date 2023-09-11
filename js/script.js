@@ -1,3 +1,5 @@
+AOS.init();
+
 const dropDown = document.querySelectorAll(".drop_dow")
 const perguntas = document.querySelectorAll(".container");
 
@@ -13,5 +15,3 @@ for (i = 0; i < perguntas.length; i++) {
         });
     })
 }
-
-AOS.init();

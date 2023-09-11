@@ -20,6 +20,6 @@ Para adicionar animações de scroll ao projeto, utilizamos a biblioteca [Animat
 ## Como Usar
 
 1. Clone este repositório:
+
    ```bash
    git clone https://github.com/gleidsonfagno/Xbox-series-X.git
-
