@@ -2,6 +2,10 @@
 
 ![Xbox](Xbox.png)
 
+## Deploy do Projeto
+
+Você pode acessar o projeto "Xbox Series X" no seguinte link: [https://gleidsonfagno.github.io/Xbox-series-X/](https://gleidsonfagno.github.io/Xbox-series-X/). Este é o deploy do projeto onde você pode ver o resultado final.
+
 Este é um projeto desenvolvido com as seguintes tecnologias:
 
 - HTML
