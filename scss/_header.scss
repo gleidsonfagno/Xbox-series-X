@@ -1,0 +1,97 @@
+
+header{
+    font-family: "InterMedium";
+    max-width: 1235px;
+    margin: 0 auto;
+    .header{
+        margin-top: 48px;
+        margin-bottom: 175px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        .logo{
+            display: block;
+            max-width: 100%;
+        }
+        .menu_bar{
+            ul{
+                display: flex;
+                flex-direction: row;
+                gap: 48px;
+                li{
+                    a{
+                        color: var(--dark-40);
+                        font-size: 17px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        letter-spacing: 0.17px;
+                        text-transform: uppercase;
+                        padding: 6px 10px;
+                        border-radius: 50px;
+                        transition: all 0.3s ease;
+                    }
+                    a:hover{
+                        background-color: var(--dark-20);
+                    }
+                }
+            }
+        }
+        button{
+            cursor: pointer;
+            padding: 21px 30px;
+            background-color: var(--brand-color);
+            a{
+                color: var(--dark-10);
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: normal;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+@media (max-width: 890px) {
+    header{
+        padding: 0 24px;
+        .header{
+            margin-top: 48px;
+            margin-bottom: 175px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 30px;
+            align-items: center;
+            .menu_bar{
+                ul{
+                    gap: 28px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 475px) {
+    header{
+        .header{
+            margin-top: 24px;
+            margin-bottom: 24px;
+            .menu_bar{
+                ul{
+                    gap: 28px;
+                    li{
+                        a{
+                            font-size: 8px;
+                        }
+                    }
+                }
+            }
+            button{
+                width: 100%;
+            }
+        }
+    }
+}
